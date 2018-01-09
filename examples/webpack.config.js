@@ -32,6 +32,9 @@ module.exports = {
 
   resolve: {
     alias: {
+      /**
+       * Here's what makes the 'import' refer to this local package
+       */
       vuex: path.resolve(__dirname, '../src/index.esm.js')
     }
   },
